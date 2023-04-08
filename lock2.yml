@@ -1,0 +1,15 @@
+- name: i3lock with image
+  hosts: all
+  vars:
+           ansible_python_interpreter: /usr/bin/python3
+  gather_facts: no
+  become: true
+  become_method: sudo
+  ignore_errors: true
+  tasks:
+        - name: lock with image
+          script: background_image.sh
+          tags:
+                  - lock2
+
+
