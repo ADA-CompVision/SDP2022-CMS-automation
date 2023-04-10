@@ -10,6 +10,6 @@
         - name: lock with image
           script: background_image.sh
           tags:
-                  - lock2
+                  - lock
 
 
