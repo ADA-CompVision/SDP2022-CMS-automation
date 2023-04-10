@@ -8,7 +8,7 @@
   ignore_errors: true
   tasks:
         - name: lock with image
-          script: background_image.sh
+          script: i3lock_with_background_image.sh
           tags:
                   - lock
 
