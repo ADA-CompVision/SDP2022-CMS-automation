@@ -1,0 +1,14 @@
+- name: Start a browser
+  hosts: all
+  vars:
+         ansible_python_interpreter: /usr/bin/python3
+  gather_facts: no
+  become: true
+  become_method: sudo
+  ignore_errors: true
+  tasks:
+          - name: Go to browser
+            script: open_browser.sh
+            tags:
+                  - browser
+
