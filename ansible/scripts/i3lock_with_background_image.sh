@@ -2,4 +2,4 @@
 
 export DISPLAY=':0'
 
-i3lock -n -i locka.png
+i3lock -n -i lock_screen.png
